@@ -33,9 +33,9 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);             // LCD a usar
  #define OLED_RESET     4 // ASignación del Pin de Reset para la pantalla
  #define SCREEN_ADDRESS 0x3C //Segun el datasheet de la pantalla la direccion es
                             //0x3D para 128x64, 0x3C para 128x32
-const char* UBIDOTS_TOKEN = "BBFF-Q6ZM02UgdW2ia2Wn8LUUBDXAorwd1e";  // Put here your Ubidots TOKEN
+const char* UBIDOTS_TOKEN = "";  // Put here your Ubidots TOKEN
 const char* WIFI_SSID = "Honor50"; // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "1235678"; // Put here your Wi-Fi password
+const char* WIFI_PASS = ""; // Put here your Wi-Fi password
 #define PIN_LED 33
 #define PIN_TTP223B 4		// SIG de sensor en pin digital 4
 #define PIN_BUZZER 32
